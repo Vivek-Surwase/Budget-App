@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Budget App</title>
+        <link rel = "stylesheet" type = "text/css" href = "style.css">
+    </head>
+    <body>
+        <div id = "title">
+            Budget App
+        </div>
+        <div id = "display_container">
+            <div id = "budget_block" class = "display_container_block">
+                <div>Budget(in Rs.)</div>
+                <div><img src = "budget.jpg" height="100px" width="100px"></div>
+                <div id = "budget_display" class = "amount_display">0</div>
+            </div>
+            <div id = "Expenditure_block" class = "display_container_block">
+                <div>Expense(in Rs.)</div>
+                <div><img src = "expenses.jpg"height="100px" width="100px"></div>
+                <div id = "expense_display"class = "amount_display">0</div>
+            </div>
+            <div id = "Balance_block" class = "display_container_block">
+                <div>Balance(in Rs.)</div>
+                <div><img src = "balance.jpg"height="100px" width="100px"></div>
+                <div id = "balance_display"class = "amount_display">0</div>
+            </div>
+        </div>
+        
+        <div id = "expense_list">
+        <p><h3>Expense list:</h3></p>
+        <ol id = "list">
+
+        </ol>
+        </div>
+        <div id = "interface">
+            <div id = "budget_interface" class = "interface_block">
+                <p>Please enter your budget</p>
+                <input id = "budget_amount_input" type = "number" value = "0">
+                <button id = "submit_btn">Submit</button>
+            </div>
+            <div id = "expense_interface" class = "interface_block">
+                <p>Add Expense</p>
+                <p>Add your expense discription</p>
+                <input type = "text" id = "expense_context" value = "">
+                <p>Enter the amount</p>
+                <input type = "number" id = "expense_amount_input" value = "0">
+                <button id = "add_btn">Add</button>
+            </div>
+
+        </div>
+        <p id = "developer">developed by Vivek Surwase</p>
+    <script type = "text/javascript" src = "script.js">
+
+    </script>    
+    </body>
+</html>
